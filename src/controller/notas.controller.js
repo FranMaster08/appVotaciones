@@ -3,7 +3,8 @@ const helper = require('../helpers/gestorArchivos');
 let getVotaciones=async(req,res)=>{
     try {
         let votaciones=await helper.verVotaciones()
-        res.status(200).json({votaciones})
+        res.render('index.html',{votaciones:votaciones[0]})
+   
     } catch (error) {
         res.status(400).json({ ok: false,error })
     } 
