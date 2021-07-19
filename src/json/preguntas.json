@@ -1,1 +1,25 @@
-[{"tituloVotacion":"que hacemos manana","preguntas":[{"titulo":"nada","votaciones":0},{"titulo":"algo","votaciones":0},{"titulo":"salir ","votaciones":0},{"titulo":"mirarpeli","votaciones":0}],"isFinish":true},{"tituloVotacion":"que hacemos manana","preguntas":[{"titulo":"nada","votaciones":0},{"titulo":"algo","votaciones":0},{"titulo":"salir ","votaciones":0},{"titulo":"mirarpeli","votaciones":0}],"isFinish":true},{"tituloVotacion":"Qué empresa te agrada mas?","preguntas":[{"titulo":"Microsoft","votaciones":0},{"titulo":"Apple","votaciones":0},{"titulo":"Intel ","votaciones":0},{"titulo":"Amd","votaciones":0}],"isFinish":true},{"tituloVotacion":"Carly tiene sueño ?","preguntas":[{"titulo":"si","votaciones":0},{"titulo":"no","votaciones":0},{"titulo":"talvez ","votaciones":0},{"titulo":"no se","votaciones":0}],"isFinish":false}]
+[
+    {
+        "id": "23e50260-ba7f-428a-ac12-0a0a1ebd2e3a",
+        "tituloVotacion": "Terminamos",
+        "preguntas": [
+            {
+                "titulo": "dao1",
+                "votaciones": 1
+            },
+            {
+                "titulo": "dao2",
+                "votaciones": 1
+            },
+            {
+                "titulo": "da03 ",
+                "votaciones": 1
+            },
+            {
+                "titulo": "dao4",
+                "votaciones": 0
+            }
+        ],
+        "isFinish": false
+    }
+]

@@ -1,0 +1,6 @@
+main{
+    display:flex;
+}
+.listas:hover{
+    cursor: pointer;
+}
