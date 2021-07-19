@@ -38,10 +38,20 @@ let votar = async (req, res) => {
         res.status(400).json({ error: error })
     }
 }
+let getVotaciones = async (req, res) => {
+    try {
+        let votaciones = await helper.verVotaciones()
+       res.status(200).json({ votaciones:votaciones[0]})
+
+    } catch (error) {
+        res.status(400).json({ ok: false, error })
+    }
+}
 
 module.exports = {
     renderIndex,
     createVotaciones,
     getStats,
-    votar
+    votar,
+    getVotaciones
 }

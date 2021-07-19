@@ -1,22 +1,22 @@
 [
     {
-        "id": "23e50260-ba7f-428a-ac12-0a0a1ebd2e3a",
-        "tituloVotacion": "Terminamos",
+        "id": "8d5bc1fd-e535-4ccc-950a-56f117b9f694",
+        "tituloVotacion": "Te dejo Dormir?",
         "preguntas": [
             {
-                "titulo": "dao1",
+                "titulo": "No",
+                "votaciones": 0
+            },
+            {
+                "titulo": "Si",
                 "votaciones": 1
             },
             {
-                "titulo": "dao2",
-                "votaciones": 1
+                "titulo": "Chupa mi pipi ",
+                "votaciones": 2
             },
             {
-                "titulo": "da03 ",
-                "votaciones": 1
-            },
-            {
-                "titulo": "dao4",
+                "titulo": "No chupa mi pipi",
                 "votaciones": 0
             }
         ],
