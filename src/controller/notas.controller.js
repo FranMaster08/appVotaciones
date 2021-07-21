@@ -10,6 +10,8 @@ let renderIndex = async (req, res) => {
     }
 }
 
+
+
 let createVotaciones = async (req, res) => {
     try {
         let body = req.body
